@@ -1,0 +1,251 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+:after,
+:before {
+  --tw-content: "";
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.jamia-hamdard {
+  padding: 50px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #1e90ff;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Styling list bullets */
+li::before {
+  content: "\2022"; /* Bullet character */
+  color: #1e90ff; /* Bullet color */
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family:
+    Proxima Nova,
+    DM Sans,
+    sans-serif;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.container {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  flex: 0 0 auto;
+  width: 560px;
+  height: 315px;
+  margin-right: 15px;
+}
+
+.image-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 48%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-blue-700 {
+  --tw-gradient-from: #1d4ed8 var(--tw-gradient-from-position);
+  --tw-gradient-from-position: ;
+  --tw-gradient-to: rgba(29, 78, 216, 0) var(--tw-gradient-from-position);
+  --tw-gradient-to-position: ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-blue-800 {
+  --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
+  --tw-gradient-to-position: ;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.md\:flex {
+  display: flex;
+}
+
+.md\:hidden {
+  display: none;
+}
+
+.md\:justify-between {
+  justify-content: space-between;
+}
+
+.btn {
+  display: block;
+  background-color: rgb(28, 113, 134);
+  color: white;
+  padding: 1em 2em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 250px;
+  margin-bottom: 5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  border-radius: 10px;
+}
+/* You can customize the styles further if needed */
+.jamia-hamdard {
+  background-color: #f0f0f0;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+
+.academic-programs,
+.facilities {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.academic-programs h3,
+.facilities h3 {
+  color: #1e90ff;
+}
+
+.academic-programs p,
+.facilities p {
+  font-size: 16px;
+  line-height: 1.6;
+}
